@@ -10,12 +10,12 @@ myMotor.setSpeed(150)
 while (True):
 	print ("Forward! ")
 	myMotor.run(Raspi_MotorHAT.FORWARD)
-	time.sleep()
+	time.sleep(1)
 
 	print ("Backward! ")
 	myMotor.run(Raspi_MotorHAT.BACKWARD)
-	time.sleep(0.01)
+	time.sleep(1)
 
 	print ("Release")
 	myMotor.run(Raspi_MotorHAT.RELEASE)
-	time.sleep(1.0)
+	time.sleep(1)
